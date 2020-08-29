@@ -55,7 +55,6 @@ install:
   - libraries:libraries
   - linkit:linkit
   - metatag:metatag
-  - paragraphs:paragraphs
   - pathauto:pathauto
   - redirect:redirect
   - simple_sitemap:simple_sitemap
