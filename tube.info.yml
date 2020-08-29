@@ -1,0 +1,69 @@
+name: Tube
+type: profile
+description: 'The Drupal 9 Layout Builder Starter Kit Distribution.'
+project: tube
+core: 8.x
+version: '1.x-dev'
+
+distribution:
+  name: Tube
+  install:
+    theme: seven
+    finish_url: /?tour=1
+
+# Required modules
+dependencies:
+  - config_selector:config_selector
+  - drupal:media
+  - drupal:node
+  - drupal:views
+  - update_helper:update_helper
+
+install:
+  # core
+  - drupal:block
+  - drupal:breakpoint
+  - drupal:ckeditor
+  - drupal:contextual
+  - drupal:menu_link_content
+  - drupal:datetime
+  - drupal:editor
+  - drupal:entity_reference
+  - drupal:image
+  - drupal:inline_form_errors
+  - drupal:menu_ui
+  - drupal:language
+  - drupal:options
+  - drupal:path
+  - drupal:page_cache
+  - drupal:taxonomy
+  - drupal:dblog
+  - drupal:dynamic_page_cache
+  - drupal:toolbar
+  - drupal:field_ui
+  - drupal:file
+  - drupal:responsive_image
+  - drupal:views_ui
+  - drupal:layout_builder
+# contrib
+  - admin_toolbar:admin_toolbar_tools
+  - autosave_form:autosave_form
+  - ctools:ctools
+  - diff:diff
+  - field_group:field_group
+  - focal_point:focal_point
+  - libraries:libraries
+  - linkit:linkit
+  - metatag:metatag
+  - paragraphs:paragraphs
+  - pathauto:pathauto
+  - redirect:redirect
+  - simple_sitemap:simple_sitemap
+  - responsive_preview:responsive_preview
+  - bootstrap_layout_builder:bootstrap_layout_builder
+  - layout_builder_blocks:layout_builder_blocks
+# Tube
+themes:
+  - seven
+  - bootstrap_barrio
+  - claro
