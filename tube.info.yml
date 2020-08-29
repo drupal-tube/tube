@@ -1,6 +1,6 @@
 name: Tube
 type: profile
-description: 'The Drupal 9 Layout Builder Starter Kit Distribution.'
+description: 'The Drupal 8 Layout Builder Starter Kit Distribution.'
 project: tube
 core: 8.x
 version: '1.x-dev'

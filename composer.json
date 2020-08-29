@@ -60,7 +60,7 @@
     "oomphinc/composer-installers-extender": "^1.1",
     "drupal/admin_toolbar": "2.0",
     "drupal/autosave_form": "^1.0",
-    "drupal/core": "9.0.3",
+    "drupal/core": "8.9.3",
     "guzzlehttp/guzzle": "^6.3.3",
     "drupal/config_selector": "^1.0-beta1",
     "drupal/config_update": "^1.5",
