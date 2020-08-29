@@ -1,0 +1,4 @@
+services:
+  plugin.manager.tube.optional_modules:
+    class: Drupal\tube\OptionalModulesManager
+    parent: default_plugin_manager
