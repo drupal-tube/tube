@@ -87,7 +87,8 @@
     "drupal/token": ">=1.0 <1.7",
     "drupal/update_helper": "^1.0",
     "drupal/bootstrap_layout_builder": "^2.0",
-    "drupal/layout_builder_blocks": "^1.0"
+    "drupal/layout_builder_blocks": "^1.0",
+    "drupal/bootstrap_barrio": "^5.1"
   },
   "require-dev": {
     "drupal/config_profile": "^1.0",
